@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+}
+
+input{
+    margin: 0 30vw;
+    height: 35px;
+    width: 40vw;
+}
+
+#myTable{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+
+#myTable td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #myTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #myTable tr:hover {background-color: #ddd;}
